@@ -3,4 +3,8 @@
     <string name="test_comment">1. Bạn nào hôm nọ bảo anh PhongPN3 chưa học Android mà có xin anh làm bài này ít thì nhắn tin riêng cho anh. 2. Còn lại nộp bài bằng cách nén file zip project gửi lên đây. 3. Mọi người có thể dẫn link merge request gitlab lên để các anh review cho tiện ạ</string>
     <string name="max_notification">99+</string>
     <string name="introduction">Giới thiệu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

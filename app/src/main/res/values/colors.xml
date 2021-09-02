@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimaryDark">#1e4e81</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="white">#fff</color>
     <color name="blue">#1878f3</color>
@@ -12,4 +12,9 @@
     <color name="blue_light">#38659F</color>
     <color name="text_color">#515151</color>
     <color name="bk_comment_gray">#EAE2E2</color>
+    <color name="main_frament_color_tab_item_icon_state_normal">#65666a</color>
+    <color name="main_frament_color_tab_item_icon_state_selected">#1a76f6</color>
+    <color name="background_search_bar">#f1f2f6</color>
+    <color name="color_icon_search">#060807</color>
+    <color name="background_fragment_login">#2CA7E0</color>
 </resources>

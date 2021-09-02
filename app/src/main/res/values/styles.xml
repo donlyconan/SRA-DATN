@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/blue_light</item>
         <item name="colorPrimaryDark">@android:color/tertiary_text_dark</item>
         <item name="colorAccent">@color/blue</item>
     </style>
@@ -14,15 +14,5 @@
         <item name="android:textSize">14sp</item>
         <item name="android:gravity">center</item>
     </style>
-
-    <style name="TabLayoutStyle" parent="Widget.MaterialComponents.TabLayout">
-        <item name="tabIndicatorColor">@color/blue_light</item>
-        <item name="tabIndicatorHeight">3sp</item>
-        <item name="tabMode">fixed</item>
-        <item name="tabTextAppearance">@android:style/TextAppearance.Widget.TabWidget</item>
-        <item name="tabSelectedTextColor">@color/blue_light</item>
-        <item name="tabTextColor">@color/text_color</item>
-    </style>
-
 
 </resources>

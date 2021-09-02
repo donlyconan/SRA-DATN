@@ -16,18 +16,19 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@android:color/transparent">
-
+            android:background="@android:color/transparent"
+            app:layout_anchor="@+id/appbar"
+            app:layout_anchorGravity="center"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back">
             <SearchView
-                android:id="@+id/txtSearchView"
+                android:id="@+id/search_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="8dp"
-                android:background="@drawable/background_edittext_search"
+                android:background="@drawable/background_search_bar"
                 android:foreground="@android:color/transparent"
-                android:paddingStart="5dp"
                 app:iconifiedByDefault="false"
                 app:queryHint="Search..."
                 app:searchIcon="@null"
@@ -36,6 +37,7 @@
 
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
+
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
